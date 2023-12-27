@@ -33,18 +33,18 @@ git add photos/$new_name/*
 cd $dir_name
 
 cp amden.html $new_name.html
-sed -i 's/amden/$new_name/g' $new_name.html
-sed -i 's/Amden/$new_name/g' $new_name.html
+sed -i "s/amden/$new_name/g" $new_name.html
+sed -i "s/Amden/$new_name/g" $new_name.html
 
 git add $new_name.html
 
 cd -
 
 #Generate index input
-echo '
-    <div class="tile-topup tile-blue">
-      <a href="https://outdoorfreedom.github.io/snowhikes/${new_name.html}"><img src="photos/${new_name}/${new_name}0.jpg" width="450" height="250" /></a>
-      <h4><a href="https://outdoorfreedom.github.io/snowhikes/${new_name}.html">${new_name} snowshoe hike</a></h4>
+echo "
+    <div class=\"tile-topup tile-blue\">
+      <a href=\"https://outdoorfreedom.github.io/snowhikes/${new_name}.html\"><img src=\"photos/${new_name}/${new_name}0.jpg\" width=\"450\" height=\"250\" /></a>
+      <h4><a href=\"https://outdoorfreedom.github.io/snowhikes/${new_name}.html\">${new_name} snowshoe hike</a></h4>
     </div>
-'
+"
 
