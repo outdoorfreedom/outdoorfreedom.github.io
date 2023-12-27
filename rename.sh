@@ -1,6 +1,6 @@
 counter=1
 
-new_name="leysin"
+new_name="schwaegalp"
 dir_name="snowhikes"
 
 
