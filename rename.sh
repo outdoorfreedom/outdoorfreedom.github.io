@@ -1,6 +1,6 @@
 counter=1
 
-new_name="melchsee-frutt"
+new_name="leysin"
 dir_name="snowhikes"
 
 
@@ -25,12 +25,18 @@ done
 
 cd -
 
+git add photos/$new_name
+git add photos/$new_name/*
+
+
 #Creation of HTML
 cd $dir_name
 
 cp amden.html $new_name.html
 sed -i 's/amden/$new_name/g' $new_name.html
 sed -i 's/Amden/$new_name/g' $new_name.html
+
+git add $new_name.html
 
 cd -
 
