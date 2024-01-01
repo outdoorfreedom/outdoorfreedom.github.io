@@ -45,7 +45,7 @@ cd -
 echo "
     <div class=\"tile-topup tile-blue\">
       <a href=\"https://outdoorfreedom.github.io/snowhikes/${new_name}.html\"><img src=\"photos/${new_name}/${new_name}0.jpg\" width=\"450\" height=\"250\" /></a>
-      <h4><a href=\"https://outdoorfreedom.github.io/snowhikes/${new_name}.html\">${new_name} snowshoe hike</a></h4>
+      <h4><a href=\"https://outdoorfreedom.github.io/snowhikes/${new_name}.html\">${upper_new_name} snowshoe hike</a></h4>
     </div>
 "
 
