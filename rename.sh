@@ -3,7 +3,6 @@ counter=1
 new_name="bischofalp"
 dir_name="snowhikes"
 
-
 cd photos/$new_name
 
 for file in *; do
