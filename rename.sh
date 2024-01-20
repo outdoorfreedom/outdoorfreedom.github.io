@@ -1,6 +1,6 @@
 counter=1
 
-new_name="bischofalp"
+new_name="alter_schwyzerweg"
 dir_name="snowhikes"
 
 cd photos/$new_name
